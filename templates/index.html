@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BigQuery Release Notes</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>🪐 BigQuery Release Notes</h1>
+    <button id="refreshBtn" class="btn primary">
+      Refresh
+      <span class="spinner" id="refreshSpinner"></span>
+    </button>
+    <ul id="notesList" class="notes-list"></ul>
+    <section id="tweetSection" class="hidden">
+      <h2>Tweet this update</h2>
+      <textarea id="tweetContent" rows="3" placeholder="Write your tweet..."></textarea>
+      <button id="tweetBtn" class="btn accent">
+        Tweet
+        <span class="spinner" id="tweetSpinner"></span>
+      </button>
+      <p id="tweetResult" class="result"></p>
+    </section>
+  </main>
+  <script src="/static/script.js"></script>
+</body>
+</html>

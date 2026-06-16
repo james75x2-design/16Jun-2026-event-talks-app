@@ -1,0 +1,5 @@
+{
+  "summary": "Flask application entry point that serves the web UI and provides API endpoints for fetching BigQuery release notes and tweeting selected notes.",
+  "updatedAt": "2026-06-16T03:35:55.468189200Z",
+  "userFacing": true
+}

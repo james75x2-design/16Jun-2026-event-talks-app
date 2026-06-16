@@ -1,0 +1,35 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+.venv/
+
+# Flask instance folder (if used)
+instance/
+
+# Environment variables
+.env
+.env.*
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and runtime data
+*.log
+
+# Build artifacts
+*.egg-info/
+build/
+dist/
